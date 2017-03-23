@@ -26,7 +26,22 @@ public class ListMain extends ListActivity {
         super.onCreate(savedInstanceState);
 
         String[] values = new String[]
-                {"Calculadora", "Principal", "MainActivity", "Antecessor e Sucessor"};
+                {"Calculadora",
+                        "Principal",
+                        "MainActivity",
+                        "Antecessor e Sucessor",
+                        "Questão 2",
+                        "Questão 3",
+                        "Questão 4",
+                        "Questão 5",
+                        "Questão 6",
+                        "Questão 7",
+                        "Questão 8",
+                        "Questão 9",
+                        "Questão 10",
+                        "Questão 11",
+                        "Questão 12",
+                };
         ArrayAdapter<String> adapter =
                 new ArrayAdapter<String>(this,
                         android.R.layout.simple_list_item_1,
