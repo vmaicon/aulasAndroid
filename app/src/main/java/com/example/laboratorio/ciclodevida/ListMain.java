@@ -78,6 +78,14 @@ public class ListMain extends ListActivity {
                 i  = new Intent(this, Exercicio1Tela1.class);
                 startActivity(i);
                 break;
+            case "Questão 2":
+                i  = new Intent(this, Q02.class);
+                startActivity(i);
+                break;
+            case "Questão 3":
+                i  = new Intent(this, Q03.class);
+                startActivity(i);
+                break;
 
         }
     }

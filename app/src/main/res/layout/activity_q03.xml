@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.laboratorio.ciclodevida.Q03">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/edIdade"
+        android:hint="Idade"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edIdade"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_below="@+id/edIdade"
+            android:layout_alignStart="@+id/edIdade"
+            android:layout_marginTop="40dp"
+            android:id="@+id/rgEstadoCivil">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Solteiro(a)"
+                android:id="@+id/rbSolteiro" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Casado(a)"
+                android:id="@+id/rbCasado" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Viuvo(a)"
+                android:id="@+id/rbViuvo" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_below="@+id/rgEstadoCivil"
+            android:layout_alignStart="@+id/rgEstadoCivil"
+            android:layout_marginTop="40dp"
+            android:id="@+id/rgEscolaridade">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1° grau completo"
+                android:id="@+id/primeriograu" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2° grau completo"
+                android:id="@+id/segundograu" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ensino Superior"
+                android:id="@+id/ensinoMedio" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avaliar"
+        android:id="@+id/button10"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:onClick="avaliar"
+        android:layout_marginTop="40dp" />
+
+
+</RelativeLayout>

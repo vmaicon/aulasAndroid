@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".Exercicio1Tela1" />
         <activity android:name=".Exercicio1Tela2" />
-        <activity android:name=".Q02"></activity>
+        <activity android:name=".Q02" />
+        <activity android:name=".Q03"></activity>
     </application>
 
 </manifest>
