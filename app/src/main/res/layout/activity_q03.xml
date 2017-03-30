@@ -34,25 +34,29 @@
             android:layout_below="@+id/edIdade"
             android:layout_alignStart="@+id/edIdade"
             android:layout_marginTop="40dp"
-            android:id="@+id/rgEstadoCivil">
+            android:id="@+id/rgEstadoCivil"
+            android:nestedScrollingEnabled="false">
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Solteiro(a)"
-                android:id="@+id/rbSolteiro" />
+                android:id="@+id/rbSolteiro"
+                 />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Casado(a)"
-                android:id="@+id/rbCasado" />
+                android:id="@+id/rbCasado"
+                 />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Viuvo(a)"
-                android:id="@+id/rbViuvo" />
+                android:id="@+id/rbViuvo"
+                 />
         </RadioGroup>
 
         <RadioGroup
@@ -67,13 +71,13 @@
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1° grau completo"
+                android:text="1 grau completo"
                 android:id="@+id/primeriograu" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2° grau completo"
+                android:text="2 grau completo"
                 android:id="@+id/segundograu" />
 
             <RadioButton
