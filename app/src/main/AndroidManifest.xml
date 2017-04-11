@@ -21,7 +21,11 @@
         <activity android:name=".Exercicio1Tela1" />
         <activity android:name=".Exercicio1Tela2" />
         <activity android:name=".Q02" />
-        <activity android:name=".Q03"></activity>
+        <activity android:name=".Q03" />
+        <activity android:name="correcaoprova.n1.Q01" />
+        <activity android:name="correcaoprova.n1.Q02" />
+        <activity android:name="correcaoprova.n1.Q03" />
+        <activity android:name="correcaoprova.n1.Q04"></activity>
     </application>
 
 </manifest>
